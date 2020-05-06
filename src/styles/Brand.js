@@ -6,7 +6,7 @@ export const Brand = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    height: 45,
+    flex: 0.7,
     backgroundColor: '#F9F9F9',
     flexDirection: 'row',
   },
@@ -35,7 +35,7 @@ export const Brand = StyleSheet.create({
     fontFamily: 'metropolis.regular',
   },
   container6: {
-    height: 60,
+    flex: 1,
   },
   container7: {
     flexDirection: 'row',
@@ -61,10 +61,10 @@ export const Brand = StyleSheet.create({
     height: 6,
   },
   container8: {
-    height: 550,
+    flex: 8,
   },
   container16: {
-    height: 80,
+    flex: 1.2,
     backgroundColor: '#E5E5E5',
     flexDirection: 'row',
     shadowColor: '#000',

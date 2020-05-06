@@ -8,6 +8,7 @@ import {
   ScrollView,
   TextInput,
 } from 'react-native';
+import {CheckBox, Avatar} from 'react-native-elements';
 
 import {Brand} from '../../../styles/Brand';
 class brandList extends Component {
@@ -41,27 +42,26 @@ class brandList extends Component {
             />
           </View>
         </View>
-        <ScrollView showsVerticalScrollIndicator={false}>
-          <View style={Brand.container8}>
-            <Text>HIII</Text>
+
+        <View style={Brand.container8}>
+          <Text>HIIII</Text>
+        </View>
+        <View style={Brand.container16}>
+          <View style={Brand.container17}>
+            <TouchableOpacity>
+              <View style={Brand.container19}>
+                <Text style={Brand.textstyle3}>Discard</Text>
+              </View>
+            </TouchableOpacity>
           </View>
-          <View style={Brand.container16}>
-            <View style={Brand.container17}>
-              <TouchableOpacity>
-                <View style={Brand.container19}>
-                  <Text style={Brand.textstyle3}>Discard</Text>
-                </View>
-              </TouchableOpacity>
-            </View>
-            <View style={Brand.container18}>
-              <TouchableOpacity>
-                <View style={Brand.container20}>
-                  <Text style={Brand.textstyle4}>Apply</Text>
-                </View>
-              </TouchableOpacity>
-            </View>
+          <View style={Brand.container18}>
+            <TouchableOpacity onPress={() => navigate('CLIENTFILE')}>
+              <View style={Brand.container20}>
+                <Text style={Brand.textstyle4}>Apply</Text>
+              </View>
+            </TouchableOpacity>
           </View>
-        </ScrollView>
+        </View>
       </View>
     );
   }

@@ -7,6 +7,7 @@ import {
   ImageBackground,
   ScrollView,
 } from 'react-native';
+import RangeSlider from 'rn-range-slider';
 
 import {Newc} from '../../../styles/Newc';
 class newCollection extends Component {
@@ -30,7 +31,20 @@ class newCollection extends Component {
           <Text style={Newc.textstyle2}>Price range</Text>
         </View>
         <View style={Newc.container12}>
-          <Text>HIII</Text>
+          <RangeSlider
+            style={{width: '90%', height: 80}}
+            gravity={'top'}
+            min={78}
+            max={143}
+            step={1}
+            selectionColor="#DB3022"
+            blankColor="#9B9B9B"
+            thumbColor="#DB3022"
+            thumbBorderColor="#DB3022"
+            onValueChanged={(low, high, fromUser) => {
+              this.setState({rangeLow: low, rangeHigh: high});
+            }}
+          />
         </View>
         <View style={Newc.container8}>
           <Text style={Newc.textstyle2}>Colors</Text>
@@ -130,7 +144,6 @@ class newCollection extends Component {
           <View
             style={{
               flex: 1,
-
               justifyContent: 'center',
               alignItems: 'flex-end',
               marginRight: 23,

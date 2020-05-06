@@ -48,6 +48,13 @@ class collectionFile extends Component {
                 text3="Evening Dress"
                 text4="15$"
                 text5="12$"
+                heart={require('../../../assets/images/heart1.png')}
+                star1={require('../../../assets/images/star.png')}
+                star2={require('../../../assets/images/star.png')}
+                star3={require('../../../assets/images/star.png')}
+                star4={require('../../../assets/images/star.png')}
+                star5={require('../../../assets/images/star.png')}
+                rate="(10)"
               />
               <Sale
                 imageuri={require('../../../assets/images/shop_8.png')}
@@ -56,6 +63,13 @@ class collectionFile extends Component {
                 text3="Sport Dress"
                 text4="22$"
                 text5="19$"
+                heart={require('../../../assets/images/heart2.png')}
+                star1={require('../../../assets/images/star.png')}
+                star2={require('../../../assets/images/star.png')}
+                star3={require('../../../assets/images/star.png')}
+                star4={require('../../../assets/images/star.png')}
+                star5={require('../../../assets/images/star.png')}
+                rate="(10)"
               />
               <Sale
                 imageuri={require('../../../assets/images/shop_9.png')}
@@ -64,6 +78,13 @@ class collectionFile extends Component {
                 text3="Casual"
                 text4="18$"
                 text5="12$"
+                heart={require('../../../assets/images/heart1.png')}
+                star1={require('../../../assets/images/star.png')}
+                star2={require('../../../assets/images/star.png')}
+                star3={require('../../../assets/images/star.png')}
+                star4={require('../../../assets/images/star.png')}
+                star5={require('../../../assets/images/star.png')}
+                rate="(10)"
               />
             </ScrollView>
           </View>

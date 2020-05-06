@@ -6,7 +6,7 @@ export const Newc = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    flex: 1,
+    flex: 1.3,
     backgroundColor: '#F9F9F9',
     flexDirection: 'row',
   },
@@ -67,13 +67,14 @@ export const Newc = StyleSheet.create({
     justifyContent: 'center',
   },
   container11: {
-    flex: 1.5,
+    flex: 1.7,
     flexDirection: 'row',
-    backgroundColor: 'pink',
   },
   container12: {
     flex: 2,
     backgroundColor: '#F9F9F9',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   container13: {
     flex: 2,
@@ -86,7 +87,7 @@ export const Newc = StyleSheet.create({
     alignItems: 'center',
   },
   container15: {
-    flex: 3,
+    flex: 3.5,
     backgroundColor: '#F9F9F9',
   },
   container16: {
@@ -174,29 +175,26 @@ export const Newc = StyleSheet.create({
   },
   container23: {
     flex: 1,
-
     flexDirection: 'row',
   },
   container24: {
     flex: 1,
-
     flexDirection: 'row',
   },
   container25: {
     flex: 1,
-
     justifyContent: 'flex-end',
-    marginBottom: 6,
+    marginBottom: 4,
   },
   container26: {
     flex: 1,
     justifyContent: 'flex-end',
-    marginBottom: 6,
+    marginBottom: 4,
   },
   container27: {
     flex: 1,
     justifyContent: 'flex-end',
-    marginBottom: 6,
+    marginBottom: 4,
   },
   container28: {
     height: 40,
@@ -204,7 +202,6 @@ export const Newc = StyleSheet.create({
     borderRadius: 8,
     marginHorizontal: 16,
     justifyContent: 'center',
-    marginTop: 5,
   },
   container29: {
     height: 40,
@@ -218,7 +215,7 @@ export const Newc = StyleSheet.create({
   container30: {
     flex: 1,
     justifyContent: 'flex-start',
-    marginTop: 6,
+    marginTop: 4,
   },
   container31: {
     flex: 1,

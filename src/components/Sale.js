@@ -28,14 +28,14 @@ class Sale extends Component {
             </View>
             <View style={Collection.container13}>
               <Image
-                source={require('../assets/images/heart1.png')}
+                source={this.props.heart}
                 style={{height: 12, width: 13.08, alignSelf: 'center'}}
               />
             </View>
           </ImageBackground>
           <View style={{flexDirection: 'row'}}>
             <Image
-              source={require('../assets/images/star.png')}
+              source={this.props.star1}
               style={{
                 marginHorizontal: 1,
                 marginTop: 9,
@@ -44,7 +44,7 @@ class Sale extends Component {
               }}
             />
             <Image
-              source={require('../assets/images/star.png')}
+              source={this.props.star2}
               style={{
                 marginHorizontal: 1,
                 marginTop: 9,
@@ -53,7 +53,7 @@ class Sale extends Component {
               }}
             />
             <Image
-              source={require('../assets/images/star.png')}
+              source={this.props.star3}
               style={{
                 marginHorizontal: 1,
                 marginTop: 9,
@@ -62,7 +62,7 @@ class Sale extends Component {
               }}
             />
             <Image
-              source={require('../assets/images/star.png')}
+              source={this.props.star4}
               style={{
                 marginHorizontal: 1,
                 marginTop: 9,
@@ -71,7 +71,7 @@ class Sale extends Component {
               }}
             />
             <Image
-              source={require('../assets/images/star.png')}
+              source={this.props.star5}
               style={{
                 marginHorizontal: 1,
                 marginTop: 9,
@@ -79,7 +79,7 @@ class Sale extends Component {
                 width: 13,
               }}
             />
-            <Text style={Collection.textstyle5}>(10)</Text>
+            <Text style={Collection.textstyle5}>{this.props.rate}</Text>
           </View>
         </View>
         <View style={{height: 60, width: 150}}>
