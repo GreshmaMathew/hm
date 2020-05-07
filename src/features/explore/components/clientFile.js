@@ -44,14 +44,14 @@ class clientFile extends Component {
             </View>
           </View>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-            <View style={{height: 400, width: 300}}>
+            <View style={{height: 340, width: 300}}>
               <ImageBackground
                 source={require('../../../assets/images/image5.png')}
                 style={{flex: 1}}
                 resizeMode="stretch"
               />
             </View>
-            <View style={{height: 400, width: 300}}>
+            <View style={{height: 340, width: 300}}>
               <ImageBackground
                 source={require('../../../assets/images/image3.png')}
                 style={{flex: 1}}
@@ -117,18 +117,18 @@ class clientFile extends Component {
                             marginVertical: 5,
                             flexDirection: 'row',
                           }}>
-                          <View
-                            style={{
-                              flex: 1,
-                              backgroundColor: 'white',
-                              borderRadius: 8,
-                              justifyContent: 'center',
-                              marginHorizontal: '5.8%',
-                              marginTop: 12,
-                              borderWidth: 0.6,
-                              borderColor: '#9B9B9B',
-                            }}>
-                            <TouchableOpacity>
+                          <TouchableOpacity>
+                            <View
+                              style={{
+                                flex: 1,
+                                backgroundColor: 'white',
+                                borderRadius: 8,
+                                justifyContent: 'center',
+                                marginHorizontal: '15%',
+                                marginTop: 12,
+                                borderWidth: 0.6,
+                                borderColor: '#9B9B9B',
+                              }}>
                               <Text
                                 style={{
                                   textAlign: 'center',
@@ -137,49 +137,52 @@ class clientFile extends Component {
                                 }}>
                                 XS
                               </Text>
-                            </TouchableOpacity>
-                          </View>
-
-                          <View
-                            style={{
-                              flex: 1,
-                              backgroundColor: 'white',
-                              borderRadius: 8,
-                              marginHorizontal: '5.8%',
-                              borderWidth: 0.6,
-                              borderColor: '#9B9B9B',
-                              marginTop: 12,
-                              justifyContent: 'center',
-                            }}>
-                            <Text
+                            </View>
+                          </TouchableOpacity>
+                          <TouchableOpacity>
+                            <View
                               style={{
-                                textAlign: 'center',
-                                fontSize: 14,
-                                fontFamily: 'metropolis.regular',
+                                flex: 1,
+                                backgroundColor: 'white',
+                                borderRadius: 8,
+                                marginHorizontal: '15%',
+                                borderWidth: 0.6,
+                                borderColor: '#9B9B9B',
+                                marginTop: 12,
+                                justifyContent: 'center',
                               }}>
-                              S
-                            </Text>
-                          </View>
-                          <View
-                            style={{
-                              flex: 1,
-                              backgroundColor: 'white',
-                              borderRadius: 8,
-                              marginTop: 12,
-                              marginHorizontal: '5.8%',
-                              borderWidth: 0.6,
-                              borderColor: '#9B9B9B',
-                              justifyContent: 'center',
-                            }}>
-                            <Text
+                              <Text
+                                style={{
+                                  textAlign: 'center',
+                                  fontSize: 14,
+                                  fontFamily: 'metropolis.regular',
+                                }}>
+                                S
+                              </Text>
+                            </View>
+                          </TouchableOpacity>
+                          <TouchableOpacity>
+                            <View
                               style={{
-                                textAlign: 'center',
-                                fontSize: 14,
-                                fontFamily: 'metropolis.regular',
+                                flex: 1,
+                                backgroundColor: 'white',
+                                borderRadius: 8,
+                                marginTop: 12,
+                                marginHorizontal: '15%',
+                                borderWidth: 0.6,
+                                borderColor: '#9B9B9B',
+                                justifyContent: 'center',
                               }}>
-                              M
-                            </Text>
-                          </View>
+                              <Text
+                                style={{
+                                  textAlign: 'center',
+                                  fontSize: 14,
+                                  fontFamily: 'metropolis.regular',
+                                }}>
+                                M
+                              </Text>
+                            </View>
+                          </TouchableOpacity>
                         </View>
 
                         <View
@@ -189,60 +192,57 @@ class clientFile extends Component {
                             marginBottom: 10,
                             flexDirection: 'row',
                           }}>
-                          <View
-                            style={{
-                              flex: 1,
-                              backgroundColor: 'white',
-                              borderRadius: 8,
-                              borderWidth: 0.6,
-                              borderColor: '#9B9B9B',
-                              marginHorizontal: '5.8%',
-                              marginTop: 12,
-                              justifyContent: 'center',
-                            }}>
-                            <Text
+                          <TouchableOpacity>
+                            <View
                               style={{
-                                textAlign: 'center',
-                                fontSize: 14,
-                                fontFamily: 'metropolis.regular',
+                                flex: 1,
+                                backgroundColor: 'white',
+                                borderRadius: 8,
+                                borderWidth: 0.6,
+                                borderColor: '#9B9B9B',
+                                marginHorizontal: '16%',
+                                marginTop: 12,
+                                justifyContent: 'center',
                               }}>
-                              L
-                            </Text>
-                          </View>
-
-                          <View
-                            style={{
-                              flex: 1,
-                              backgroundColor: 'white',
-                              borderRadius: 8,
-
-                              marginHorizontal: '5.8%',
-                              borderWidth: 0.6,
-                              borderColor: '#9B9B9B',
-                              marginTop: 12,
-                              justifyContent: 'center',
-                            }}>
-                            <Text
+                              <Text
+                                style={{
+                                  textAlign: 'center',
+                                  fontSize: 14,
+                                  fontFamily: 'metropolis.regular',
+                                }}>
+                                L
+                              </Text>
+                            </View>
+                          </TouchableOpacity>
+                          <TouchableOpacity>
+                            <View
                               style={{
-                                textAlign: 'center',
-                                fontSize: 14,
-                                fontFamily: 'metropolis.regular',
+                                flex: 1,
+                                backgroundColor: 'white',
+                                borderRadius: 8,
+                                marginHorizontal: '16%',
+                                borderWidth: 0.6,
+                                borderColor: '#9B9B9B',
+                                marginTop: 12,
+                                justifyContent: 'center',
                               }}>
-                              XL
-                            </Text>
-                          </View>
-                          <View
-                            style={{
-                              flex: 1,
-                              backgroundColor: '#E5E5E5',
-                              borderRadius: 8,
-
-                              marginHorizontal: '5.8%',
-
-                              marginTop: 12,
-                              justifyContent: 'center',
-                            }}
-                          />
+                              <Text
+                                style={{
+                                  textAlign: 'center',
+                                  fontSize: 14,
+                                  fontFamily: 'metropolis.regular',
+                                }}>
+                                XL
+                              </Text>
+                            </View>
+                          </TouchableOpacity>
+                          <TouchableOpacity>
+                            <View
+                              style={{
+                                flex: 1,
+                              }}
+                            />
+                          </TouchableOpacity>
                         </View>
                         <TouchableOpacity>
                           <View
@@ -639,43 +639,56 @@ class clientFile extends Component {
               rate="(10)"
             />
           </ScrollView>
-          <View
-            style={{
-              height: 100,
-              justifyContent: 'flex-end',
-            }}>
-            <TouchableOpacity>
-              <View
-                style={{
-                  height: 48,
-                  marginHorizontal: 16,
-                  backgroundColor: '#DB3022',
-                  marginVertical: 22,
-                  borderRadius: 25,
-                  justifyContent: 'center',
-                  shadowColor: '#000',
-                  shadowOffset: {
-                    width: 0,
-                    height: 7,
-                  },
-                  shadowOpacity: 0.5,
-                  shadowRadius: 9.11,
 
-                  elevation: 14,
-                }}>
-                <Text
-                  style={{
-                    textAlign: 'center',
-                    color: 'white',
-                    fontSize: 14,
-                    fontFamily: 'metropolis.regular',
-                  }}>
-                  ADD TO CART
-                </Text>
-              </View>
-            </TouchableOpacity>
-          </View>
+          <View style={{height: 200}} />
         </ScrollView>
+        <View
+          style={{
+            height: '15%',
+            position: 'absolute',
+            right: 0,
+            bottom: 0,
+            left: 0,
+            backgroundColor: '#fff',
+            shadowOffset: {
+              width: 0,
+              height: 7,
+            },
+            shadowOpacity: 0.5,
+            shadowRadius: 9.11,
+            elevation: 14,
+          }}>
+          <TouchableOpacity>
+            <View
+              style={{
+                height: 47,
+                marginHorizontal: 16,
+                backgroundColor: '#DB3022',
+                marginTop: 16,
+                borderRadius: 25,
+                justifyContent: 'center',
+                shadowColor: '#000',
+                shadowOffset: {
+                  width: 0,
+                  height: 7,
+                },
+                shadowOpacity: 0.5,
+                shadowRadius: 9.11,
+
+                elevation: 14,
+              }}>
+              <Text
+                style={{
+                  textAlign: 'center',
+                  color: 'white',
+                  fontSize: 14,
+                  fontFamily: 'metropolis.regular',
+                }}>
+                ADD TO CART
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }
