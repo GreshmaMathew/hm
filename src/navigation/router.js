@@ -22,6 +22,7 @@ import womenTops from '../features/explore/components/womenTops';
 import newCollection from '../features/explore/components/newCollection';
 import brandList from '../features/explore/components/brandList';
 import clientFile from '../features/explore/components/clientFile';
+import rateFile from '../features/explore/components/rateFile';
 import {createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
 
 const Stack = createStackNavigator();
@@ -113,6 +114,7 @@ class Router extends Component {
           <Stack.Screen name="NEWCOLLECTION" component={newCollection} />
           <Stack.Screen name="BRANDLIST" component={brandList} />
           <Stack.Screen name="CLIENTFILE" component={clientFile} />
+          <Stack.Screen name="RATEFILE" component={rateFile} />
 
           <Stack.Screen name="bottom" children={createBottomTabs} />
         </Stack.Navigator>

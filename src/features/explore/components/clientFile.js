@@ -23,6 +23,7 @@ class clientFile extends Component {
   };
 
   render() {
+    const {navigate} = this.props.navigation;
     return (
       <View style={Client.container1}>
         <ScrollView showsVerticalScrollIndicator={false}>
@@ -420,7 +421,8 @@ class clientFile extends Component {
                     fontFamily: 'metropolis.regular',
                     paddingLeft: 4,
                     marginVertical: 3,
-                  }}>
+                  }}
+                  onPress={() => navigate('RATEFILE')}>
                   (9)
                 </Text>
               </View>
@@ -640,7 +642,7 @@ class clientFile extends Component {
             />
           </ScrollView>
 
-          <View style={{height: 200}} />
+          <View style={{height: 100}} />
         </ScrollView>
         <View
           style={{
