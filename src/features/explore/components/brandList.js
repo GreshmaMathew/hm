@@ -9,7 +9,7 @@ import {
   TextInput,
 } from 'react-native';
 import {CheckBox, Avatar} from 'react-native-elements';
-
+import Brandc from '../../../components/Brand';
 import {Brand} from '../../../styles/Brand';
 class brandList extends Component {
   render() {
@@ -44,7 +44,14 @@ class brandList extends Component {
         </View>
 
         <View style={Brand.container8}>
-          <Text>HIIII</Text>
+          <Brandc name={'adidas'} />
+          <Brandc name={'adidas originals'} />
+          <Brandc name={'Blend'} />
+          <Brandc name={'Boutique Moschino'} />
+          <Brandc name={'Champion'} />
+          <Brandc name={' Diesel'} />
+          <Brandc name={' Jack & Jones'} />
+          <Brandc name={' Naf Naf'} />
         </View>
         <View style={Brand.container16}>
           <View style={Brand.container17}>

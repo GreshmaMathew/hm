@@ -50,7 +50,72 @@ class newCollection extends Component {
           <Text style={Newc.textstyle2}>Colors</Text>
         </View>
         <View style={Newc.container13}>
-          <Text>HIII</Text>
+          <TouchableOpacity>
+            <View
+              style={{
+                height: 36,
+                width: 36,
+                backgroundColor: '#020202',
+                borderRadius: 18,
+                marginLeft: 20,
+              }}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View
+              style={{
+                height: 36,
+                width: 36,
+                backgroundColor: 'pink',
+                borderRadius: 18,
+                marginLeft: 20,
+              }}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View
+              style={{
+                height: 36,
+                width: 36,
+                backgroundColor: '#B82222',
+                borderRadius: 18,
+                marginLeft: 20,
+              }}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View
+              style={{
+                height: 36,
+                width: 36,
+                backgroundColor: '#BEA9A9',
+                borderRadius: 18,
+                marginLeft: 20,
+              }}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View
+              style={{
+                height: 36,
+                width: 36,
+                backgroundColor: '#DB3022',
+                borderRadius: 18,
+                marginLeft: 20,
+              }}
+            />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View
+              style={{
+                height: 36,
+                width: 36,
+                backgroundColor: '#151867',
+                borderRadius: 18,
+                marginLeft: 20,
+              }}
+            />
+          </TouchableOpacity>
         </View>
         <View style={Newc.container9}>
           <Text style={Newc.textstyle2}>Sizes</Text>

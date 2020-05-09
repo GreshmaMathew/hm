@@ -79,6 +79,8 @@ export const Newc = StyleSheet.create({
   container13: {
     flex: 2,
     backgroundColor: '#F9F9F9',
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   container14: {
     flex: 2,

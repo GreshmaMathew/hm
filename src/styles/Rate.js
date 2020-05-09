@@ -106,7 +106,21 @@ export const Rate = StyleSheet.create({
     color: '#4F4F4F',
     fontFamily: 'metropolis.regular',
     textAlign: 'center',
-    paddingLeft: 16,
+    paddingLeft: 14,
+  },
+  texstyle20: {
+    fontSize: 12,
+    color: '#4F4F4F',
+    fontFamily: 'metropolis.regular',
+    textAlign: 'center',
+    paddingLeft: 12,
+  },
+  texstyle15: {
+    fontSize: 12,
+    color: '#4F4F4F',
+    fontFamily: 'metropolis.regular',
+    textAlign: 'center',
+    paddingLeft: 15,
   },
   container16: {
     flex: 1,
@@ -121,7 +135,7 @@ export const Rate = StyleSheet.create({
     marginLeft: 5,
   },
   container18: {
-    height: 60,
+    height: 70,
 
     flexDirection: 'row',
   },
@@ -151,7 +165,83 @@ export const Rate = StyleSheet.create({
     color: '#222222',
     fontFamily: 'metropolis.regular',
     textAlign: 'center',
+
+    paddingLeft: 10,
+  },
+  container21: {
+    height: 240,
+    marginHorizontal: 32,
+    borderRadius: 8,
+    marginBottom: 25,
+    backgroundColor: '#FFF',
+  },
+  container22: {
+    flex: 0.6,
+
+    justifyContent: 'flex-end',
+    marginLeft: 24,
+  },
+  container23: {
+    flex: 0.6,
+
+    justifyContent: 'center',
+    flexDirection: 'row',
+  },
+  container24: {
+    flex: 3,
+
+    marginLeft: 24,
+    marginRight: 20,
+  },
+  container25: {
+    flex: 0.6,
+
+    alignItems: 'center',
+    marginRight: 15,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
+  texstyle7: {
+    fontSize: 14,
+    color: '#222222',
+    fontFamily: 'metropolis.regular',
     fontWeight: 'bold',
-    paddingLeft: 15,
+  },
+  texstyle8: {
+    fontSize: 11,
+    color: '#9B9B9B',
+    fontFamily: 'metropolis.regular',
+  },
+  texstyle9: {
+    fontSize: 14,
+    color: '#222222',
+    fontFamily: 'metropolis.regular',
+    lineHeight: 18,
+  },
+  texstyle10: {
+    fontSize: 11,
+    color: '#9B9B9B',
+    fontFamily: 'metropolis.regular',
+    paddingRight: 5,
+    paddingTop: 2,
+  },
+  texstyle12: {
+    fontSize: 18,
+    color: '#222222',
+    fontFamily: 'metropolis.regular',
+    paddingTop: 14,
+    fontWeight: 'bold',
+  },
+  texstyle13: {
+    fontSize: 18,
+    color: '#222222',
+    fontFamily: 'metropolis.regular',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+  texstyle14: {
+    fontSize: 14,
+    color: '#FFFFFF',
+    fontFamily: 'metropolis.regular',
   },
 });

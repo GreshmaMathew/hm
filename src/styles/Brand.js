@@ -131,4 +131,26 @@ export const Brand = StyleSheet.create({
     color: 'white',
     fontWeight: '800',
   },
+  container21: {
+    height: 45,
+
+    flexDirection: 'row',
+  },
+  container22: {
+    flex: 1,
+
+    justifyContent: 'center',
+    marginLeft: 16,
+  },
+  container23: {
+    flex: 1,
+
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    marginRight: 16,
+  },
+  textstyle5: {
+    fontSize: 16,
+    fontFamily: 'metropolis.regular',
+  },
 });
