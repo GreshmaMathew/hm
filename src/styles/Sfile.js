@@ -119,7 +119,6 @@ export const Sfile = StyleSheet.create({
     overflow: 'hidden',
     height: 180,
     width: 150,
-    backgroundColor: 'pink',
   },
   container16: {
     backgroundColor: '#222222',
@@ -128,6 +127,7 @@ export const Sfile = StyleSheet.create({
     borderRadius: 25,
     marginLeft: 8,
     marginTop: 8,
+    justifyContent: 'center',
   },
   container17: {
     color: 'white',

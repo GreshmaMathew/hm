@@ -228,7 +228,7 @@ class newCollection extends Component {
             </TouchableOpacity>
           </View>
           <View style={Newc.container18}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => navigate('FAVSELECT')}>
               <View style={Newc.container20}>
                 <Text style={Newc.textstyle4}>Apply</Text>
               </View>

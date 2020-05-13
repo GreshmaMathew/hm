@@ -343,6 +343,10 @@ class womenTops extends Component {
                             flexDirection: 'row',
                             alignItems: 'center',
                             marginTop: 15,
+                            borderTopWidth: 0.6,
+                            borderBottomWidth: 0.6,
+                            borderColor: '#9B9B9B',
+                            backgroundColor: 'green',
                           }}>
                           <View style={{flex: 1}}>
                             <Text

@@ -114,9 +114,11 @@ export const Sign = StyleSheet.create({
   },
   container9: {
     flex: 1,
+    backgroundColor: 'blue',
   },
   container10: {
     flex: 0.8,
+    backgroundColor: 'yellow',
   },
   container11: {
     flex: 0.4,
@@ -134,9 +136,11 @@ export const Sign = StyleSheet.create({
     flex: 0.4,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'pink',
   },
   container15: {
     flex: 0.2,
+    backgroundColor: 'green',
   },
   container16: {
     flexDirection: 'row',
