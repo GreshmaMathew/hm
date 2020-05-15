@@ -73,7 +73,9 @@ class Grid2 extends Component {
                 }}
                 resizeMode="stretch">
                 <View style={Grid.container29}>
-                  <Text style={{color: 'white', textAlign: 'center'}}>NEW</Text>
+                  <Text style={{color: 'white', textAlign: 'center'}}>
+                    {this.props.discount}
+                  </Text>
                 </View>
                 <TouchableOpacity>
                   <View style={Grid.container27}>
