@@ -25,6 +25,7 @@ import clientFile from '../features/explore/components/clientFile';
 import rateFile from '../features/explore/components/rateFile';
 import favSelect from '../features/explore/components/favSelect';
 import Category from '../components/Category';
+import favGrid from '../features/explore/components/favGrid';
 import {createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
 
 const Stack = createStackNavigator();
@@ -118,6 +119,7 @@ class Router extends Component {
           <Stack.Screen name="CLIENTFILE" component={clientFile} />
           <Stack.Screen name="RATEFILE" component={rateFile} />
           <Stack.Screen name="FAVSELECT" component={favSelect} />
+          <Stack.Screen name="FAVGRID" component={favGrid} />
           <Stack.Screen name="bottom" children={createBottomTabs} />
         </Stack.Navigator>
       </NavigationContainer>

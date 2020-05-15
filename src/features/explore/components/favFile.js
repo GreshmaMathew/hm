@@ -52,9 +52,9 @@ class favFile extends Component {
               </View>
               <View style={Favorite.container13}>
                 <View>
-                  <TouchableOpacity>
+                  <TouchableOpacity onPress={() => navigate('FAVGRID')}>
                     <Image
-                      source={require('../../../assets/images/color.png')}
+                      source={require('../../../assets/images/grid_icon.png')}
                     />
                   </TouchableOpacity>
                 </View>

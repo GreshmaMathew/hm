@@ -66,12 +66,13 @@ export const Favorite = StyleSheet.create({
     fontFamily: 'metropolis.regular',
   },
   container6: {
-    height: 125,
-    marginVertical: 16,
+    height: 104,
+    marginTop: 16,
     marginHorizontal: 16,
     borderRadius: 8,
     flexDirection: 'row',
     backgroundColor: 'white',
+    marginBottom: 10,
   },
   container4: {
     flex: 1.1,
@@ -94,13 +95,12 @@ export const Favorite = StyleSheet.create({
     justifyContent: 'center',
   },
   container16: {
-    flex: 1,
-
+    flex: 0.8,
     flexDirection: 'row',
   },
   container17: {
     flex: 1.5,
-
+    marginBottom: 10,
     flexDirection: 'row',
   },
   container18: {
@@ -116,6 +116,7 @@ export const Favorite = StyleSheet.create({
   },
   container20: {
     flex: 1,
+    flexDirection: 'row',
   },
   textstyle3: {
     fontSize: 11,

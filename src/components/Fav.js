@@ -81,23 +81,24 @@ class Fav extends Component {
               <Image source={this.props.star4} style={{marginRight: 3}} />
               <Image source={this.props.star5} style={{marginRight: 4}} />
               <Text style={Favorite.textstyle6}>{this.props.text8}</Text>
-            </View>
-          </View>
-          <View style={Favorite.container20}>
-            <TouchableOpacity>
-              <View
-                style={{
-                  height: 36,
-                  width: 36,
-                  backgroundColor: '#DB3022',
-                  borderRadius: 18,
-                  alignSelf: 'flex-end',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}>
-                <Image source={require('../assets/images/bag_4.png')} />
+              <View style={{flex: 1}}>
+                <TouchableOpacity>
+                  <View
+                    style={{
+                      height: 36,
+                      width: 36,
+                      backgroundColor: '#DB3022',
+                      borderRadius: 18,
+                      alignSelf: 'flex-end',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      marginTop: 30,
+                    }}>
+                    <Image source={require('../assets/images/bag_4.png')} />
+                  </View>
+                </TouchableOpacity>
               </View>
-            </TouchableOpacity>
+            </View>
           </View>
         </View>
       </View>
