@@ -131,7 +131,6 @@ export const Grid = StyleSheet.create({
   },
   container23: {
     flex: 2,
-    borderRadius: 8,
   },
   textstyle4: {
     fontSize: 11,

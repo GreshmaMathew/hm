@@ -20,7 +20,6 @@ class Grid2 extends Component {
                 source={this.props.image1}
                 style={{
                   flex: 1,
-                  borderRadius: 8,
                 }}
                 resizeMode="stretch">
                 <TouchableOpacity>
