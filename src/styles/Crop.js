@@ -58,4 +58,15 @@ export const Crop = StyleSheet.create({
   container11: {
     flex: 0.2,
   },
+  imagestyle: {
+    flex: 1,
+  },
+  container12: {
+    height: 52,
+    width: 52,
+    backgroundColor: '#DB3022',
+    borderRadius: 35,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 });

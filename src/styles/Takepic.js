@@ -78,4 +78,7 @@ export const Takepic = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  imagestyle: {
+    flex: 1,
+  },
 });

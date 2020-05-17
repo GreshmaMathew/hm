@@ -6,7 +6,7 @@ export const Sign = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    flex: 0.4,
+    flex: 0.55,
   },
   icon1: {
     height: 16,
@@ -17,9 +17,9 @@ export const Sign = StyleSheet.create({
   textstyle1: {
     fontSize: 34,
     fontFamily: 'metropolis.regular',
-    marginLeft: 14,
-    marginTop: 20,
     fontWeight: 'bold',
+    marginTop: 12,
+    marginLeft: 14,
   },
   textinput1: {
     height: 58,
@@ -46,18 +46,20 @@ export const Sign = StyleSheet.create({
   },
   container3: {
     flexDirection: 'row',
+    marginTop: 5,
+    justifyContent: 'flex-end',
+    marginRight: 16,
   },
   textstyle2: {
     fontSize: 14,
     color: '#222222',
     fontFamily: 'metropolis.regular',
-    alignSelf: 'flex-end',
   },
   arrow: {
     width: 15.78,
     height: 6.59,
-    alignSelf: 'flex-start',
     marginLeft: 5,
+    alignSelf: 'center',
   },
   container5: {
     height: 48,
@@ -114,15 +116,12 @@ export const Sign = StyleSheet.create({
   },
   container9: {
     flex: 1,
-    backgroundColor: 'blue',
   },
   container10: {
-    flex: 0.8,
-    backgroundColor: 'yellow',
+    flex: 1,
   },
   container11: {
-    flex: 0.4,
-    marginTop: 5,
+    flex: 0.1,
   },
   container12: {
     flex: 0.1,
@@ -131,18 +130,23 @@ export const Sign = StyleSheet.create({
   },
   container13: {
     flex: 1,
+    alignItems: 'flex-end',
   },
   container14: {
-    flex: 0.4,
+    flex: 0.6,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'pink',
   },
   container15: {
-    flex: 0.2,
-    backgroundColor: 'green',
+    flex: 0.4,
+    justifyContent: 'flex-start',
+
+    marginTop: 5,
   },
   container16: {
     flexDirection: 'row',
+  },
+  container17: {
+    flex: 1.2,
   },
 });

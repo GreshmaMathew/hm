@@ -30,22 +30,19 @@ class loginUp extends Component {
           />
           <TouchableOpacity onPress={() => navigate('FORGOTPWD')}>
             <View style={Login.container6}>
-              <View style={Login.container11}>
-                <Text style={Login.textstyle2}>Forgot your password?</Text>
-              </View>
-              <View style={Login.container12}>
-                <Image
-                  source={require('../../../assets/images/arrow_icon.png')}
-                  style={Login.arrow}
-                />
-              </View>
+              <Text style={Login.textstyle2}>Forgot your password?</Text>
+
+              <Image
+                source={require('../../../assets/images/arrow_icon.png')}
+                style={Login.arrow}
+              />
             </View>
           </TouchableOpacity>
           <View style={Login.container4}>
             <View style={Login.container13}>
               <TouchableOpacity onPress={() => navigate('VSEARCH')}>
                 <View style={Login.container7}>
-                  <Text style={Login.textstyle6}>Login</Text>
+                  <Text style={Login.textstyle6}>LOGIN</Text>
                 </View>
               </TouchableOpacity>
             </View>
@@ -53,7 +50,7 @@ class loginUp extends Component {
         </View>
 
         <View style={Login.container5}>
-          <Text style={Login.textstyle7}>Or sign up with social account</Text>
+          <Text style={Login.textstyle7}>Or Login with social account</Text>
           <View style={Login.container14}>
             <View style={Login.container8}>
               <TouchableOpacity>

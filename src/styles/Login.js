@@ -30,7 +30,7 @@ export const Login = StyleSheet.create({
     fontSize: 34,
     fontFamily: 'metropolis.regular',
     marginLeft: 14,
-    marginTop: 20,
+    marginTop: 12,
     fontWeight: 'bold',
   },
   textinput1: {
@@ -50,19 +50,22 @@ export const Login = StyleSheet.create({
   },
   container6: {
     flexDirection: 'row',
+    marginTop: 5,
+    justifyContent: 'flex-end',
+    marginRight: 16,
+    alignItems: 'center',
   },
   textstyle2: {
     fontSize: 14,
     color: '#222222',
     fontFamily: 'metropolis.regular',
-    paddingTop: 5,
     alignSelf: 'flex-end',
   },
   arrow: {
     width: 15.78,
     height: 6.59,
-    alignSelf: 'flex-start',
-    marginTop: 5,
+    alignSelf: 'center',
+    marginLeft: 5,
   },
   container7: {
     height: 48,
@@ -119,12 +122,12 @@ export const Login = StyleSheet.create({
     alignSelf: 'center',
   },
   container11: {
-    flex: 1,
+    flex: 1.7,
   },
   container12: {
     flex: 0.1,
     justifyContent: 'center',
-    marginLeft: 5,
+    marginLeft: 4,
   },
   container13: {
     flex: 0.6,

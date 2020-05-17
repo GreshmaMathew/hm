@@ -29,9 +29,7 @@ class takePhoto extends Component {
         <View style={Takepic.container3}>
           <ImageBackground
             source={require('../../../assets/images/camimage.png')}
-            style={{
-              flex: 1,
-            }}
+            style={Takepic.imagestyle}
             resizeMode="stretch"
           />
         </View>

@@ -29,23 +29,13 @@ class cropPhoto extends Component {
         <View style={Crop.container3}>
           <ImageBackground
             source={require('../../../assets/images/fadedimage.png')}
-            style={{
-              flex: 1,
-            }}
+            style={Crop.imagestyle}
             resizeMode="stretch"
           />
         </View>
         <View style={Crop.container4}>
           <TouchableOpacity onPress={() => navigate('RESULTSEARCH')}>
-            <View
-              style={{
-                height: 52,
-                width: 52,
-                backgroundColor: '#DB3022',
-                borderRadius: 35,
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}>
+            <View style={Crop.container12}>
               <Image source={require('../../../assets/images/search.png')} />
             </View>
           </TouchableOpacity>

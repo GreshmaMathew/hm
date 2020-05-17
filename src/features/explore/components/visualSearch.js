@@ -29,16 +29,13 @@ class visualSearch extends Component {
         <View style={Vsearch.container5}>
           <ImageBackground
             source={require('../../../assets/images/image.png')}
-            style={{
-              flex: 1,
-            }}
+            style={Vsearch.imagestyle}
             resizeMode="stretch">
             <View style={Vsearch.container12}>
               <Text style={Vsearch.textstyle2}>
                 Search for an outfit by {'\n'}taking a photo or uploading an
                 image
               </Text>
-
               <View>
                 <TouchableOpacity onPress={() => navigate('TAKEPHOTO')}>
                   <View style={Vsearch.container7}>

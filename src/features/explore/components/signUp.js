@@ -13,9 +13,8 @@ class signUp extends Component {
           />
           <Text style={Sign.textstyle1}>Sign up</Text>
         </View>
-
-        <View style={Sign.container9}>
-          <View style={Sign.container10}>
+        <View style={Sign.container17}>
+          <View style={Sign.container11}>
             <TextInput style={Sign.textinput1} placeholder="Name" />
             <TextInput style={Sign.textinput2} placeholder="Email" />
             <TextInput
@@ -24,32 +23,25 @@ class signUp extends Component {
               secureTextEntry
             />
 
-            <View style={Sign.container11}>
-              <TouchableOpacity onPress={() => navigate('LOGINUP')}>
-                <View style={Sign.container3}>
-                  <View style={Sign.container13}>
-                    <Text style={Sign.textstyle2}>
-                      Already have an account?
-                    </Text>
-                  </View>
-                  <View style={Sign.container12}>
-                    <Image
-                      source={require('../../../assets/images/arrow_icon.png')}
-                      style={Sign.arrow}
-                    />
-                  </View>
-                </View>
-              </TouchableOpacity>
-            </View>
-          </View>
-          <View style={Sign.container15}>
-            <TouchableOpacity>
-              <View style={Sign.container5}>
-                <Text style={Sign.textstyle6}>Sign up</Text>
+            <TouchableOpacity onPress={() => navigate('LOGINUP')}>
+              <View style={Sign.container3}>
+                <Text style={Sign.textstyle2}>Already have an account?</Text>
+                <Image
+                  source={require('../../../assets/images/arrow_icon.png')}
+                  style={Sign.arrow}
+                />
               </View>
             </TouchableOpacity>
           </View>
         </View>
+        <View style={Sign.container15}>
+          <TouchableOpacity>
+            <View style={Sign.container5}>
+              <Text style={Sign.textstyle6}>SIGN UP</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+
         <View style={Sign.container14}>
           <Text style={Sign.textstyle7}>Or sign up with social account</Text>
           <View style={Sign.container16}>

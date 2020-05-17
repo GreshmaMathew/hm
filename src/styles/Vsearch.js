@@ -92,4 +92,7 @@ export const Vsearch = StyleSheet.create({
   container13: {
     flex: 0.2,
   },
+  imagestyle: {
+    flex: 1,
+  },
 });

@@ -12,7 +12,7 @@ export const Forgot = StyleSheet.create({
     flex: 1,
   },
   container4: {
-    flex: 0.6,
+    flex: 1,
   },
 
   icon1: {
@@ -33,6 +33,7 @@ export const Forgot = StyleSheet.create({
     marginHorizontal: 16,
     marginVertical: 30,
     fontFamily: 'metropolis.regular',
+    lineHeight: 20,
   },
   textinput2: {
     height: 58,
@@ -48,6 +49,7 @@ export const Forgot = StyleSheet.create({
     borderRadius: 25,
     justifyContent: 'center',
     marginHorizontal: 16,
+    marginVertical: 16,
   },
   textstyle6: {
     fontSize: 14,
