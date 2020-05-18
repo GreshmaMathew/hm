@@ -6,11 +6,10 @@ export const Fasion = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    flex: 4.5,
+    height: 400,
   },
   container3: {
-    flex: 0.8,
-
+    height: 100,
     flexDirection: 'row',
   },
   container4: {

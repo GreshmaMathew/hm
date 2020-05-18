@@ -21,7 +21,7 @@ export const Street = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    flex: 1.3,
+    flex: 1.6,
     backgroundColor: 'white',
     flexDirection: 'row',
   },
@@ -185,5 +185,11 @@ export const Street = StyleSheet.create({
   container22: {
     flex: 0.1,
     justifyContent: 'center',
+  },
+  container23: {
+    flex: 1,
+    justifyContent: 'center',
+    borderBottomWidth: 4,
+    borderColor: '#DB3022',
   },
 });

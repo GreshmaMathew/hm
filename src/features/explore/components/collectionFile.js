@@ -15,7 +15,7 @@ class collectionFile extends Component {
   render() {
     return (
       <View style={Collection.container1}>
-        <ScrollView>
+        <ScrollView showsVerticalScrollIndicator={false}>
           <View style={Collection.container2}>
             <ImageBackground
               source={require('../../../assets/images/cover.png')}

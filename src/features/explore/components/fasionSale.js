@@ -9,77 +9,49 @@ import {
   ScrollView,
 } from 'react-native';
 import {Fasion} from '../../../styles/Fasion';
+import Category from '../../../components/Category';
 class fasionSale extends Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
       <View style={Fasion.container1}>
-        <View style={Fasion.container2}>
-          <ImageBackground
-            source={require('../../../assets/images/wallpaper.png')}
-            style={{
-              flex: 1,
-              aspectRatio: 1,
-            }}>
-            <View style={Fasion.container14}>
-              <Text style={Fasion.textstyle}>Fashion{'\n'}sale</Text>
-            </View>
-            <View style={Fasion.container15}>
-              <TouchableOpacity onPress={() => navigate('STREETFILE')}>
-                <View style={Fasion.container13}>
-                  <Text style={Fasion.textstyle2}>Check</Text>
-                </View>
-              </TouchableOpacity>
-            </View>
-          </ImageBackground>
-        </View>
-        <View style={Fasion.container3}>
-          <View style={Fasion.container6}>
-            <Text style={Fasion.textstyle4}>New</Text>
-            <Text style={Fasion.textstyle5}>You've never seen it before!</Text>
-          </View>
-          <View style={Fasion.container7}>
-            <Text style={Fasion.textstyle3}>View all</Text>
-          </View>
-        </View>
-
-        <View style={Fasion.container4}>
-          <View style={Fasion.container8}>
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <View style={Fasion.container2}>
             <ImageBackground
-              source={require('../../../assets/images/shop_1.png')}
+              source={require('../../../assets/images/wallpaper.png')}
               style={{
                 flex: 1,
               }}
               resizeMode="stretch">
-              <View style={Fasion.container17}>
-                <Text style={Fasion.container20}>New</Text>
+              <View style={Fasion.container14}>
+                <Text style={Fasion.textstyle}>Fashion{'\n'}sale</Text>
+              </View>
+              <View style={Fasion.container15}>
+                <TouchableOpacity onPress={() => navigate('STREETFILE')}>
+                  <View style={Fasion.container13}>
+                    <Text style={Fasion.textstyle2}>Check</Text>
+                  </View>
+                </TouchableOpacity>
               </View>
             </ImageBackground>
           </View>
-          <View style={Fasion.container9}>
-            <ImageBackground
-              source={require('../../../assets/images/shop_2.png')}
-              style={{
-                flex: 1,
-              }}
-              resizeMode="stretch">
-              <View style={Fasion.container16}>
-                <Text style={Fasion.container20}>New</Text>
-              </View>
-            </ImageBackground>
+          <View style={Fasion.container3}>
+            <View style={Fasion.container6}>
+              <Text style={Fasion.textstyle4}>New</Text>
+              <Text style={Fasion.textstyle5}>
+                You've never seen it before!
+              </Text>
+            </View>
+            <View style={Fasion.container7}>
+              <Text style={Fasion.textstyle3}>View all</Text>
+            </View>
           </View>
-          <View style={Fasion.container10}>
-            <ImageBackground
-              source={require('../../../assets/images/shop_3.png')}
-              style={{
-                flex: 1,
-              }}>
-              <View style={Fasion.container18}>
-                <Text style={Fasion.container19}>New</Text>
-              </View>
-            </ImageBackground>
-          </View>
-        </View>
+          <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+            <Category imageuri={require('../../../assets/images/shop_1.png')} />
+            <Category imageuri={require('../../../assets/images/shop_2.png')} />
+            <Category imageuri={require('../../../assets/images/shop_7.png')} />
+          </ScrollView>
+        </ScrollView>
       </View>
     );
   }

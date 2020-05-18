@@ -91,15 +91,42 @@ export const Tops = StyleSheet.create({
     marginTop: 5,
   },
   container19: {
-    height: 270,
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+
+    marginLeft: 16,
+    marginRight: 9,
   },
   container20: {
-    height: 270,
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+
+    marginRight: 16,
+    marginLeft: 9,
+  },
+  container14: {
+    height: '50%',
+    backgroundColor: '#E5E5E5',
+    borderTopLeftRadius: 34,
+    borderTopRightRadius: 34,
+    paddingLeft: 18,
+  },
+  textstyle3: {
+    fontSize: 17,
+    paddingTop: 18,
+    fontFamily: 'metropolis.regular',
+  },
+  textstyle4: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 12,
+    fontFamily: 'metropolis.regular',
+  },
+  container21: {
+    height: 6,
+    width: 60,
+    backgroundColor: '#9B9B9B',
+    borderRadius: 3,
+    alignSelf: 'center',
+    marginTop: 14,
   },
 });

@@ -61,13 +61,10 @@ export const Collection2 = StyleSheet.create({
     fontFamily: 'metropolis.regular',
   },
   container10: {
-    height: 250,
-    width: 175,
-    marginVertical: 5,
+    flex: 1,
   },
   container11: {
-    height: 195,
-    width: 175,
+    flex: 3,
     borderTopLeftRadius: 16,
     borderTopRightRadius: 16,
     overflow: 'hidden',
@@ -92,8 +89,8 @@ export const Collection2 = StyleSheet.create({
     height: 36,
     backgroundColor: 'white',
     borderRadius: 18,
-    marginLeft: 139,
-    marginTop: 122,
+    alignSelf: 'flex-end',
+    marginTop: 132,
     justifyContent: 'center',
   },
   textstyle5: {

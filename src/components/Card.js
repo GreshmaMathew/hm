@@ -24,9 +24,11 @@ class Card extends Component {
           />
         </View>
         <View style={Women.container16}>
-          <Text style={Women.textstyle3}>{this.props.text1}</Text>
-          <Text style={Women.textstyle4}>{this.props.text2}</Text>
-          <View style={{flexDirection: 'row'}}>
+          <View style={Women.container18}>
+            <Text style={Women.textstyle3}>{this.props.text1}</Text>
+            <Text style={Women.textstyle4}>{this.props.text2}</Text>
+          </View>
+          <View style={Women.container19}>
             <Image
               source={this.props.star1}
               style={{
@@ -74,9 +76,15 @@ class Card extends Component {
             />
             <Text style={Women.textstyle6}>{this.props.text3}</Text>
           </View>
-          <Text style={Women.textstyle5}>{this.props.text4}</Text>
-          <View style={Women.container17}>
-            <Image source={this.props.heart1} style={Women.imagestyle} />
+          <View style={Women.container20}>
+            <View style={Women.container21}>
+              <Text style={Women.textstyle5}>{this.props.text4}</Text>
+            </View>
+            <View style={Women.container22}>
+              <View style={Women.container17}>
+                <Image source={this.props.heart1} style={Women.imagestyle} />
+              </View>
+            </View>
           </View>
         </View>
       </View>

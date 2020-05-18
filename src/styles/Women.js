@@ -134,7 +134,7 @@ export const Women = StyleSheet.create({
     borderTopRightRadius: 14,
     borderBottomRightRadius: 14,
     paddingLeft: 12,
-    paddingVertical: 12,
+    paddingVertical: 10,
   },
   textstyle3: {
     fontSize: 16,
@@ -171,8 +171,6 @@ export const Women = StyleSheet.create({
     width: 34,
     backgroundColor: 'white',
     borderRadius: 18,
-    marginLeft: 228,
-    marginBottom: 15,
     justifyContent: 'center',
     shadowColor: '#000',
     shadowOffset: {
@@ -183,5 +181,28 @@ export const Women = StyleSheet.create({
     shadowRadius: 7.49,
 
     elevation: 12,
+    alignSelf: 'flex-end',
+  },
+  container18: {
+    flex: 1,
+  },
+  container19: {
+    flex: 1,
+
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+  },
+  container20: {
+    flex: 1,
+
+    flexDirection: 'row',
+  },
+  container21: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+  container22: {
+    flex: 1,
+    marginTop: 15,
   },
 });

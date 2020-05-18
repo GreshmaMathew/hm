@@ -84,7 +84,7 @@ class Category2 extends Component {
             <Text style={Collection2.textstyle5}>{this.props.text6}</Text>
           </View>
         </View>
-        <View style={{height: 60, width: 150}}>
+        <View style={{flex: 1}}>
           <Text style={Collection2.textstyle6}>{this.props.text2}</Text>
           <Text style={Collection2.textstyle7}>{this.props.text3}</Text>
           <View style={{flexDirection: 'row'}}>

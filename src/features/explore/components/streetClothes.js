@@ -32,17 +32,9 @@ class streetClothes extends Component {
         </View>
         <View style={Street.container3}>
           <View style={Street.container17}>
-            <View style={{flex: 1, justifyContent: 'center'}}>
+            <View style={Street.container23}>
               <Text style={Street.textstyle4}>Women</Text>
             </View>
-            <View
-              style={{
-                flex: 0.1,
-                backgroundColor: '#DB3022',
-                height: 3,
-                width: 125,
-              }}
-            />
           </View>
           <View style={Street.container18}>
             <Text style={Street.textstyle5}>Men</Text>
