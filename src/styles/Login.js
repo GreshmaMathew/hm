@@ -6,7 +6,7 @@ export const Login = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    flex: 0.6,
+    flex: 0.5,
   },
   container3: {
     flex: 1.5,
@@ -30,7 +30,7 @@ export const Login = StyleSheet.create({
     fontSize: 34,
     fontFamily: 'metropolis.regular',
     marginLeft: 14,
-    marginTop: 12,
+    marginTop: 5,
     fontWeight: 'bold',
   },
   textinput1: {

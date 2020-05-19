@@ -20,7 +20,6 @@ class Category2 extends Component {
             source={this.props.imageuri}
             style={{
               flex: 1,
-              borderBottomRightRadius: 24,
             }}
             resizeMode="stretch">
             <View style={Collection2.container12}>
@@ -30,57 +29,17 @@ class Category2 extends Component {
               <TouchableOpacity>
                 <Image
                   source={this.props.heart1}
-                  style={{height: 12, width: 13.08, alignSelf: 'center'}}
+                  style={Collection2.heartstyle}
                 />
               </TouchableOpacity>
             </View>
           </ImageBackground>
           <View style={{flexDirection: 'row'}}>
-            <Image
-              source={this.props.star1}
-              style={{
-                marginHorizontal: 1,
-                marginTop: 9,
-                height: 12,
-                width: 13,
-              }}
-            />
-            <Image
-              source={this.props.star2}
-              style={{
-                marginHorizontal: 1,
-                marginTop: 9,
-                height: 12,
-                width: 13,
-              }}
-            />
-            <Image
-              source={this.props.star3}
-              style={{
-                marginHorizontal: 1,
-                marginTop: 9,
-                height: 12,
-                width: 13,
-              }}
-            />
-            <Image
-              source={this.props.star4}
-              style={{
-                marginHorizontal: 1,
-                marginTop: 9,
-                height: 12,
-                width: 13,
-              }}
-            />
-            <Image
-              source={this.props.star5}
-              style={{
-                marginHorizontal: 1,
-                marginTop: 9,
-                height: 12,
-                width: 13,
-              }}
-            />
+            <Image source={this.props.star1} style={Collection2.imagestyle} />
+            <Image source={this.props.star2} style={Collection2.imagestyle} />
+            <Image source={this.props.star3} style={Collection2.imagestyle} />
+            <Image source={this.props.star4} style={Collection2.imagestyle} />
+            <Image source={this.props.star5} style={Collection2.imagestyle} />
             <Text style={Collection2.textstyle5}>{this.props.text6}</Text>
           </View>
         </View>

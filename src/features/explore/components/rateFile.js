@@ -11,8 +11,7 @@ import {Rate} from '../../../styles/Rate';
 import {Avatar} from 'react-native-elements';
 import {ScrollView} from 'react-native-gesture-handler';
 import Modal from 'react-native-modal';
-import {CheckBox} from 'react-native-elements';
-import {Review} from '../components/../../../components/Review';
+
 class rateFile extends Component {
   state = {
     isModalVisible1: false,
@@ -140,54 +139,19 @@ class rateFile extends Component {
             </View>
             <View style={Rate.container10}>
               <View style={Rate.container13}>
-                <View
-                  style={{
-                    height: 8,
-                    width: 114,
-                    backgroundColor: '#DB3022',
-                    borderRadius: 4,
-                  }}
-                />
+                <View style={Rate.container26} />
               </View>
               <View style={Rate.container13}>
-                <View
-                  style={{
-                    height: 8,
-                    width: 40,
-                    backgroundColor: '#DB3022',
-                    borderRadius: 4,
-                  }}
-                />
+                <View style={Rate.container27} />
               </View>
               <View style={Rate.container13}>
-                <View
-                  style={{
-                    height: 8,
-                    width: 29,
-                    backgroundColor: '#DB3022',
-                    borderRadius: 4,
-                  }}
-                />
+                <View style={Rate.container28} />
               </View>
               <View style={Rate.container13}>
-                <View
-                  style={{
-                    height: 8,
-                    width: 14,
-                    backgroundColor: '#DB3022',
-                    borderRadius: 4,
-                  }}
-                />
+                <View style={Rate.container29} />
               </View>
               <View style={Rate.container13}>
-                <View
-                  style={{
-                    height: 8,
-                    width: 8,
-                    backgroundColor: '#DB3022',
-                    borderRadius: 4,
-                  }}
-                />
+                <View style={Rate.container30} />
               </View>
             </View>
             <View style={Rate.container11}>
@@ -237,7 +201,6 @@ class rateFile extends Component {
               <View
                 style={{
                   flex: 1,
-
                   marginLeft: 24,
                   alignItems: 'center',
                   flexDirection: 'row',
@@ -263,14 +226,7 @@ class rateFile extends Component {
                   style={Rate.imagestyle}
                 />
               </View>
-              <View
-                style={{
-                  flex: 1,
-
-                  marginRight: 20,
-                  alignItems: 'flex-end',
-                  justifyContent: 'center',
-                }}>
+              <View style={Rate.container31}>
                 <Text style={Rate.texstyle8}>June 5, 2019</Text>
               </View>
             </View>
@@ -305,7 +261,6 @@ class rateFile extends Component {
               <View
                 style={{
                   flex: 1,
-
                   marginLeft: 24,
                   alignItems: 'center',
                   flexDirection: 'row',
@@ -358,28 +313,7 @@ class rateFile extends Component {
             </View>
           </View>
         </ScrollView>
-
-        <View
-          style={{
-            height: 36,
-            width: 148,
-            backgroundColor: '#DB3022',
-            position: 'absolute',
-            bottom: '8%',
-            right: '2%',
-            borderRadius: 24,
-            alignItems: 'center',
-            flexDirection: 'row',
-            shadowColor: '#000',
-            shadowOffset: {
-              width: 0,
-              height: 3,
-            },
-            shadowOpacity: 0.29,
-            shadowRadius: 4.65,
-
-            elevation: 7,
-          }}>
+        <View style={Rate.container32}>
           <Image
             source={require('../../../assets/images/icon.png')}
             style={{marginLeft: 5}}
@@ -392,19 +326,8 @@ class rateFile extends Component {
                 margin: 0,
                 justifyContent: 'flex-end',
               }}>
-              <View
-                style={{
-                  height: '80%',
-                  backgroundColor: '#E5E5E5',
-                  borderTopLeftRadius: 34,
-                  borderTopRightRadius: 34,
-                }}>
-                <View
-                  style={{
-                    flex: 1,
-
-                    alignItems: 'center',
-                  }}>
+              <View style={Rate.container33}>
+                <View style={Rate.container34}>
                   <View
                     style={{
                       width: 60,
@@ -414,14 +337,11 @@ class rateFile extends Component {
                       marginTop: 14,
                     }}
                   />
-                  <Text style={Rate.texstyle12} onPress={this.toggleModal1}>
-                    What is you rate?
-                  </Text>
+                  <Text style={Rate.texstyle12}>What is your rate?</Text>
                 </View>
                 <View
                   style={{
                     flex: 0.8,
-
                     justifyContent: 'center',
                     flexDirection: 'row',
                     alignItems: 'center',
@@ -450,7 +370,6 @@ class rateFile extends Component {
                 <View
                   style={{
                     flex: 0.7,
-
                     alignItems: 'center',
                   }}>
                   <Text style={Rate.texstyle13}>
@@ -459,78 +378,40 @@ class rateFile extends Component {
                 </View>
                 <View
                   style={{
-                    flex: 3,
-
+                    flex: 2.5,
                     justifyContent: 'center',
                   }}>
                   <TextInput
-                    style={{
-                      height: 174,
-                      marginHorizontal: 16,
-                      backgroundColor: '#FFF',
-                      textAlignVertical: 'top',
-                    }}
+                    style={Rate.container35}
                     placeholder="Your review"
                   />
                 </View>
                 <View
                   style={{
                     flex: 1.3,
-
                     flexDirection: 'row',
                   }}>
-                  <View
-                    style={{
-                      backgroundColor: '#FFFFFF',
-                      width: '23%',
-                      marginLeft: 16,
-                      justifyContent: 'center',
-                      alignItems: 'center',
-
-                      borderRadius: 4,
-                    }}>
+                  <View style={Rate.container36}>
                     <TouchableOpacity>
-                      <View
-                        style={{
-                          height: 54,
-                          width: 54,
-                          borderRadius: 30,
-                          backgroundColor: '#DB3022',
-                          justifyContent: 'center',
-                          alignItems: 'center',
-                        }}>
+                      <View style={Rate.container37}>
                         <Image
                           source={require('../../../assets/images/camera.png')}
                         />
                       </View>
                     </TouchableOpacity>
                     <Text
-                      style={{fontSize: 11, paddingTop: 3, fontWeight: 'bold'}}>
+                      style={{
+                        fontSize: 11,
+                        paddingVertical: 3,
+                        fontWeight: 'bold',
+                      }}>
                       Add your photos
                     </Text>
                   </View>
                 </View>
                 <View style={{flex: 1.3, justifyContent: 'center'}}>
-                  <TouchableOpacity>
-                    <View
-                      style={{
-                        marginHorizontal: 16,
-                        marginVertical: 16,
-                        height: '58%',
-                        backgroundColor: '#DB3022',
-                        borderRadius: 24,
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        shadowColor: '#000',
-                        shadowOffset: {
-                          width: 0,
-                          height: 3,
-                        },
-                        shadowOpacity: 0.29,
-                        shadowRadius: 4.65,
-
-                        elevation: 7,
-                      }}>
+                  <TouchableOpacity onPress={this.toggleModal1}>
+                    <View style={Rate.container38}>
                       <Text style={Rate.texstyle14}>SEND REVIEW</Text>
                     </View>
                   </TouchableOpacity>

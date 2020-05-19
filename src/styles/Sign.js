@@ -6,7 +6,7 @@ export const Sign = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    flex: 0.55,
+    flex: 0.5,
   },
   icon1: {
     height: 16,
@@ -18,7 +18,7 @@ export const Sign = StyleSheet.create({
     fontSize: 34,
     fontFamily: 'metropolis.regular',
     fontWeight: 'bold',
-    marginTop: 12,
+    marginTop: 5,
     marginLeft: 14,
   },
   textinput1: {

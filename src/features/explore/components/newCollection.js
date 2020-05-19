@@ -51,70 +51,22 @@ class newCollection extends Component {
         </View>
         <View style={Newc.container13}>
           <TouchableOpacity>
-            <View
-              style={{
-                height: 36,
-                width: 36,
-                backgroundColor: '#020202',
-                borderRadius: 18,
-                marginLeft: 20,
-              }}
-            />
+            <View style={Newc.color1} />
           </TouchableOpacity>
           <TouchableOpacity>
-            <View
-              style={{
-                height: 36,
-                width: 36,
-                backgroundColor: 'pink',
-                borderRadius: 18,
-                marginLeft: 20,
-              }}
-            />
+            <View style={Newc.color2} />
           </TouchableOpacity>
           <TouchableOpacity>
-            <View
-              style={{
-                height: 36,
-                width: 36,
-                backgroundColor: '#B82222',
-                borderRadius: 18,
-                marginLeft: 20,
-              }}
-            />
+            <View style={Newc.color3} />
           </TouchableOpacity>
           <TouchableOpacity>
-            <View
-              style={{
-                height: 36,
-                width: 36,
-                backgroundColor: '#BEA9A9',
-                borderRadius: 18,
-                marginLeft: 20,
-              }}
-            />
+            <View style={Newc.color4} />
           </TouchableOpacity>
           <TouchableOpacity>
-            <View
-              style={{
-                height: 36,
-                width: 36,
-                backgroundColor: '#DB3022',
-                borderRadius: 18,
-                marginLeft: 20,
-              }}
-            />
+            <View style={Newc.color5} />
           </TouchableOpacity>
           <TouchableOpacity>
-            <View
-              style={{
-                height: 36,
-                width: 36,
-                backgroundColor: '#151867',
-                borderRadius: 18,
-                marginLeft: 20,
-              }}
-            />
+            <View style={Newc.color6} />
           </TouchableOpacity>
         </View>
         <View style={Newc.container9}>
@@ -194,25 +146,11 @@ class newCollection extends Component {
         </View>
 
         <View style={Newc.container11}>
-          <View
-            style={{
-              flex: 1,
-
-              justifyContent: 'center',
-            }}>
+          <View style={Newc.container32}>
             <Text style={Newc.textstyle2}>Brand</Text>
-            <Text style={Newc.textstyle5}>
-              adidas Originals, Jack & Jones, s.Oliver
-            </Text>
           </View>
 
-          <View
-            style={{
-              flex: 1,
-              justifyContent: 'center',
-              alignItems: 'flex-end',
-              marginRight: 23,
-            }}>
+          <View style={Newc.container33}>
             <TouchableOpacity onPress={() => navigate('BRANDLIST')}>
               <Image source={require('../../../assets/images/vector_2.png')} />
             </TouchableOpacity>

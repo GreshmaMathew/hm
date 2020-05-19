@@ -92,18 +92,18 @@ export const Tops = StyleSheet.create({
   },
   container19: {
     flex: 1,
-
+    marginVertical: 6,
     marginLeft: 16,
     marginRight: 9,
   },
   container20: {
     flex: 1,
-
+    marginVertical: 6,
     marginRight: 16,
     marginLeft: 9,
   },
   container14: {
-    height: '50%',
+    height: '60%',
     backgroundColor: '#E5E5E5',
     borderTopLeftRadius: 34,
     borderTopRightRadius: 34,

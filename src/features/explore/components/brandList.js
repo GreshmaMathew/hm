@@ -8,7 +8,6 @@ import {
   ScrollView,
   TextInput,
 } from 'react-native';
-import {CheckBox, Avatar} from 'react-native-elements';
 import Brandc from '../../../components/Brand';
 import {Brand} from '../../../styles/Brand';
 class brandList extends Component {

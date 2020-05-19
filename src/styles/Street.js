@@ -21,7 +21,7 @@ export const Street = StyleSheet.create({
     width: '100%',
   },
   container2: {
-    flex: 1.6,
+    flex: 2,
     backgroundColor: 'white',
     flexDirection: 'row',
   },

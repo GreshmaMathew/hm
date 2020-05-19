@@ -64,7 +64,7 @@ export const Collection2 = StyleSheet.create({
     flex: 1,
   },
   container11: {
-    flex: 3,
+    flex: 3.5,
     borderTopLeftRadius: 16,
     borderTopRightRadius: 16,
     overflow: 'hidden',
@@ -128,5 +128,16 @@ export const Collection2 = StyleSheet.create({
     paddingLeft: 3,
     fontWeight: 'bold',
     fontFamily: 'metropolis.regular',
+  },
+  heartstyle: {
+    height: 12,
+    width: 13.08,
+    alignSelf: 'center',
+  },
+  imagestyle: {
+    marginHorizontal: 1,
+    marginTop: 9,
+    height: 12,
+    width: 13,
   },
 });

@@ -14,7 +14,6 @@ export const Forgot = StyleSheet.create({
   container4: {
     flex: 1,
   },
-
   icon1: {
     height: 16,
     width: 9.26,
@@ -25,7 +24,7 @@ export const Forgot = StyleSheet.create({
     fontSize: 34,
     fontFamily: 'metropolis.regular',
     marginLeft: 14,
-    marginTop: 20,
+    marginTop: 5,
     fontWeight: 'bold',
   },
   textstyle2: {

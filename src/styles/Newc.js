@@ -222,4 +222,56 @@ export const Newc = StyleSheet.create({
   container31: {
     flex: 1,
   },
+  color1: {
+    height: 36,
+    width: 36,
+    backgroundColor: '#020202',
+    borderRadius: 18,
+    marginLeft: 20,
+  },
+  color2: {
+    height: 36,
+    width: 36,
+    backgroundColor: 'pink',
+    borderRadius: 18,
+    marginLeft: 15,
+  },
+  color3: {
+    height: 36,
+    width: 36,
+    backgroundColor: '#B82222',
+    borderRadius: 18,
+    marginLeft: 15,
+  },
+  color4: {
+    height: 36,
+    width: 36,
+    backgroundColor: '#BEA9A9',
+    borderRadius: 18,
+    marginLeft: 15,
+  },
+  color5: {
+    height: 36,
+    width: 36,
+    backgroundColor: '#DB3022',
+    borderRadius: 18,
+    marginLeft: 15,
+  },
+  color6: {
+    height: 36,
+    width: 36,
+    backgroundColor: '#151867',
+    borderRadius: 18,
+    marginLeft: 15,
+  },
+  container32: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+  container33: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    marginRight: 23,
+  },
 });

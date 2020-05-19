@@ -169,7 +169,7 @@ export const Rate = StyleSheet.create({
     paddingLeft: 10,
   },
   container21: {
-    height: 240,
+    height: 307,
     marginHorizontal: 32,
     borderRadius: 8,
     marginBottom: 25,
@@ -188,18 +188,16 @@ export const Rate = StyleSheet.create({
     flexDirection: 'row',
   },
   container24: {
-    flex: 3,
-
+    flex: 2.3,
     marginLeft: 24,
     marginRight: 20,
   },
   container25: {
     flex: 0.6,
-
-    alignItems: 'center',
     marginRight: 15,
     flexDirection: 'row',
     justifyContent: 'flex-end',
+    alignItems: 'center',
   },
   texstyle7: {
     fontSize: 14,
@@ -216,7 +214,7 @@ export const Rate = StyleSheet.create({
     fontSize: 14,
     color: '#222222',
     fontFamily: 'metropolis.regular',
-    lineHeight: 18,
+    lineHeight: 16,
   },
   texstyle10: {
     fontSize: 11,
@@ -229,7 +227,7 @@ export const Rate = StyleSheet.create({
     fontSize: 18,
     color: '#222222',
     fontFamily: 'metropolis.regular',
-    paddingTop: 14,
+    paddingTop: 8,
     fontWeight: 'bold',
   },
   texstyle13: {
@@ -243,5 +241,114 @@ export const Rate = StyleSheet.create({
     fontSize: 14,
     color: '#FFFFFF',
     fontFamily: 'metropolis.regular',
+  },
+  container26: {
+    height: 8,
+    width: 114,
+    backgroundColor: '#DB3022',
+    borderRadius: 4,
+  },
+  container27: {
+    height: 8,
+    width: 40,
+    backgroundColor: '#DB3022',
+    borderRadius: 4,
+  },
+  container28: {
+    height: 8,
+    width: 29,
+    backgroundColor: '#DB3022',
+    borderRadius: 4,
+  },
+  container29: {
+    height: 8,
+    width: 14,
+    backgroundColor: '#DB3022',
+    borderRadius: 4,
+  },
+  container30: {
+    height: 8,
+    width: 8,
+    backgroundColor: '#DB3022',
+    borderRadius: 4,
+  },
+  container31: {
+    flex: 1,
+    marginRight: 20,
+    alignItems: 'flex-end',
+    justifyContent: 'center',
+  },
+  container32: {
+    height: 36,
+    width: 148,
+    backgroundColor: '#DB3022',
+    position: 'absolute',
+    bottom: '8%',
+    right: '2%',
+    borderRadius: 24,
+    alignItems: 'center',
+    flexDirection: 'row',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.29,
+    shadowRadius: 4.65,
+
+    elevation: 7,
+  },
+  container33: {
+    height: '80%',
+    backgroundColor: '#E5E5E5',
+    borderTopLeftRadius: 34,
+    borderTopRightRadius: 34,
+  },
+  container34: {
+    flex: 1,
+
+    alignItems: 'center',
+  },
+  container35: {
+    flex: 1,
+    marginHorizontal: 16,
+    backgroundColor: '#FFF',
+    textAlignVertical: 'top',
+    marginVertical: 16,
+  },
+  container36: {
+    backgroundColor: '#FFFFFF',
+    width: 110,
+    marginLeft: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 4,
+  },
+  container37: {
+    height: 54,
+    width: 54,
+    borderRadius: 30,
+    backgroundColor: '#DB3022',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 5,
+  },
+  container38: {
+    marginHorizontal: 16,
+    marginVertical: 16,
+    height: '58%',
+    backgroundColor: '#DB3022',
+    borderRadius: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.29,
+    shadowRadius: 4.65,
+
+    elevation: 7,
   },
 });
