@@ -6,6 +6,7 @@ import {
   Image,
   TextInput,
   TouchableOpacity,
+  KeyboardAvoidingView,
 } from 'react-native';
 import {Login} from '../../../styles/Login';
 
@@ -13,7 +14,10 @@ class loginUp extends Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={Login.container1}>
+      <KeyboardAvoidingView
+        behavior={'height'}
+        style={Login.container1}
+        enabled>
         <View style={Login.container2}>
           <Image
             source={require('../../../assets/images/icon_1.png')}
@@ -71,7 +75,7 @@ class loginUp extends Component {
           </View>
         </View>
         <View style={Login.container10} />
-      </View>
+      </KeyboardAvoidingView>
     );
   }
 }

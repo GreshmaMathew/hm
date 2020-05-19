@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
-import {Text, View, TouchableOpacity, TextInput, Image} from 'react-native';
+import {
+  Text,
+  View,
+  TouchableOpacity,
+  TextInput,
+  Image,
+  KeyboardAvoidingView,
+} from 'react-native';
 import {Sign} from '../../../styles/Sign';
 class signUp extends Component {
   render() {
     const {navigate} = this.props.navigation;
     return (
-      <View style={Sign.container1}>
+      <KeyboardAvoidingView behavior={'height'} style={Sign.container1}>
         <View style={Sign.container2}>
           <Image
             source={require('../../../assets/images/icon_1.png')}
@@ -64,7 +71,7 @@ class signUp extends Component {
           </View>
         </View>
         <View style={Sign.container8} />
-      </View>
+      </KeyboardAvoidingView>
     );
   }
 }
